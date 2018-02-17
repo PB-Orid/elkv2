@@ -1,4 +1,4 @@
-# uses ONBUILD instructions described here:
+# uses ONBUILD 
 # https://github.com/gliderlabs/logspout/tree/master/custom
 
 FROM gliderlabs/logspout:master

@@ -1,4 +1,7 @@
-sudo: required
+making elk compose stucture 
+
+
+sudo: is required for ubuntu 16.4 terminal
 
 language: generic
 
@@ -18,10 +21,14 @@ install:
   - chmod +x docker-compose
   - sudo mv docker-compose /usr/local/bin
 
+
+
 before_script:
   # Check docker & docker-compose versions
   - docker --version
   - docker-compose --version
+
+
 
 script:
   - docker-compose build
